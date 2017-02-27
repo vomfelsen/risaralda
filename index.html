@@ -213,7 +213,7 @@
 	    $(".open-right").click(function(e) {
 
 	    	$('.img-right').hide();
-	    	$('.overlay').show();
+	    	$('.overlay').fadeIn(500);
 
 	    	var ri = $(this).attr('id');
 
@@ -230,7 +230,7 @@
 
 	    $("#close-right").click(function(e) {
 
-	    	$('.overlay').hide();
+	    	$('.overlay').fadeOut(500);
 	        $('#page-content-wrapper').css({
 				transform: 'translateX(0px)'
 			});
