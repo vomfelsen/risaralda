@@ -1,0 +1,317 @@
+html, body{
+	height: 100%;
+}
+
+.site-wrapper{
+	background: url('../images/fondo.png') center center;
+	background-size: cover;
+	height: 100%;
+	width: 1920px !important;
+}
+
+.logo{
+	margin-top: 60px;
+}
+
+.paisaje-cultural{
+	margin-top: 80px;
+}
+
+.mapa{
+	margin-top: 168px;
+}
+
+.logo-risaralda{
+    width: 316px;
+    margin-top: -255px;
+}
+
+.pin{
+
+}
+
+.active-pin{
+	z-index: 9999;
+}
+
+.pin .point{
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	margin-left: -15px;
+	width: 30px;
+	height: 15px;
+	background: white;
+	border-radius: 50%;
+	z-index: 99;
+}
+
+.pin .point-info{
+	display: none;
+	-webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+}
+
+
+.pin-quinchia{
+    position: absolute;
+    top: 159px;
+    left: 569px;
+    width: 100px;
+    height: 135px;
+}
+
+.pin-guatica{
+    position: absolute;
+    top: 159px;
+    left: 500px;
+    width: 100px;
+    height: 135px;
+}
+
+.pin-mistrato{
+	position: absolute;
+    top: 189px;
+    left: 400px;
+    width: 100px;
+    height: 135px;
+}
+
+.pin-belen{
+    position: absolute;
+    top: 282px;
+    left: 426px;
+    width: 100px;
+    height: 135px;
+}
+
+.pin-apia{
+    position: absolute;
+    top: 343px;
+    left: 337px;
+    width: 100px;
+    height: 135px;
+}
+
+.pin-pueblo-rico{
+    position: absolute;
+    top: 304px;
+    left: 159px;
+    width: 100px;
+    height: 135px;
+}
+
+.pin-santuario{
+    position: absolute;
+    top: 383px;
+    left: 273px;
+    width: 100px;
+    height: 135px;
+}
+
+.pin-la-celia{
+    position: absolute;
+    top: 473px;
+    left: 323px;
+    width: 100px;
+    height: 135px;
+}
+
+.pin-balboa{
+	position: absolute;
+    top: 511px;
+    left: 394px;
+    width: 100px;
+    height: 135px;
+}
+
+.pin-la-virginia{
+    position: absolute;
+    top: 507px;
+    left: 494px;
+    width: 100px;
+    height: 135px;
+}
+
+.pin-marsella{
+    position: absolute;
+    top: 423px;
+    left: 618px;
+    width: 100px;
+    height: 135px;
+}
+
+.pin-pereira{
+	position: absolute;
+    top: 614px;
+    left: 628px;
+    width: 100px;
+    height: 135px;
+}
+
+.pin-dosquebradas{
+    position: absolute;
+    top: 560px;
+    left: 699px;
+    width: 100px;
+    height: 135px;
+}
+
+.pin-santa-rosa{
+	position: absolute;
+    top: 495px;
+    left: 800px;
+    width: 100px;
+    height: 135px;
+}
+
+.pin-guatica #guatica img{
+	margin-top: -30px;
+}
+
+.pin-belen #belen img{
+	margin-top: -35px;
+}
+
+.pin-apia #apia img{
+	margin-top: -32px;
+}
+
+.pin-pueblo-rico #pueblo-rico img{
+	margin-top: -32px;
+}
+
+.pin-la-celia #la-celia img{
+	margin-top: -35px;
+}
+
+.pin-balboa #balboa img{
+	margin-top: -35px;
+}
+
+.pin-la-virginia #la-virginia img{
+	margin-top: -38px;
+}
+
+.pin-pereira #pereira img{
+	margin-top: -38px;
+}
+
+.pin-dosquebradas #dosquebradas img{
+	margin-top: 30px;
+}
+
+.pin-santa-rosa #santa-rosa img{
+	margin-top: -40px;
+}
+
+#wrapper{
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	padding-left: 0;
+	transition: all 0.5s ease;
+	height: 100%;
+}
+
+#page-content-wrapper{
+	-webkit-transition: all 500ms ease-out;
+    -moz-transition: all 500ms ease-out;
+    -ms-transition: all 500ms ease-out;
+    -o-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+}
+
+#sidebar-wrapper{
+	display: block;
+	position: fixed;
+	width: 1458px;
+	height: 100%;
+	top: 0;
+	z-index: 100;
+	right: 0;
+	-moz-transform: translateX(1458px);
+	-ms-transform: translateX(1458px);
+	-webkit-transform: translateX(1458px);
+	transform: translateX(1458px);
+	-webkit-transition: all 500ms ease-out;
+	-moz-transition: all 500ms ease-out;
+	-ms-transition: all 500ms ease-out;
+	-o-transition: all 500ms ease-out;
+	transition: all 500ms ease-out;
+	overflow: auto;
+
+}
+
+#close-right{
+    width: 60px;
+    height: 60px;
+    background: black;
+    color: #FFFFFF;
+    font-size: 33px;
+    text-align: center;
+    line-height: 52px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.img-right{
+	display: none;
+	width: 100%
+}
+
+.apin {
+  -webkit-animation: pin 2s infinite alternate cubic-bezier(.27,.06,.37,.94);
+  -moz-animation: pin 2s infinite alternate cubic-bezier(.27,.06,.37,.94);
+  animation: pin 2s infinite alternate cubic-bezier(.27,.06,.37,.94);
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes pin {
+  0% {
+    -webkit-transform: translate3d(0,20px,0);
+    -moz-transform: translate3d(0,20px,0);
+    transform: translate3d(0,20px,0); }
+  100% {
+    -webkit-transform:  translate3d(0,0,0);
+    -moz-transform:  translate3d(0,0,0);
+    transform:  translate3d(0,0,0);  } }
+@-moz-keyframes pin {
+  0% {
+    -webkit-transform: translate3d(0,20px,0);
+    -moz-transform: translate3d(0,20px,0);
+    transform: translate3d(0,20px,0); }
+  100% {
+    -webkit-transform:  translate3d(0,0,0);
+    -moz-transform:  translate3d(0,0,0);
+    transform:  translate3d(0,0,0);  } }
+@-ms-keyframes pin {
+  0% {
+    -webkit-transform: translate3d(0,20px,0);
+    -moz-transform: translate3d(0,20px,0);
+    transform: translate3d(0,20px,0); }
+  100% {
+    -webkit-transform:  translate3d(0,0,0);
+    -moz-transform:  translate3d(0,0,0);
+    transform:  translate3d(0,0,0);  } }
+@keyframes pin {
+  0% {
+    -webkit-transform: translate3d(0,20px,0);
+    -moz-transform: translate3d(0,20px,0);
+    transform: translate3d(0,20px,0); }
+  100% {
+    -webkit-transform:  translate3d(0,0,0);
+    -moz-transform:  translate3d(0,0,0);
+    transform:  translate3d(0,0,0);  } }
+
