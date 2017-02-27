@@ -10,6 +10,7 @@
   </head>
 	<body>
 		<div id="wrapper">
+			<div class="overlay"></div>
 			<div id="page-content-wrapper" class="site-wrapper">
 				<div class="site-wrapper-inner">
 					<div class="container-fluid">
@@ -212,6 +213,7 @@
 	    $(".open-right").click(function(e) {
 
 	    	$('.img-right').hide();
+	    	$('.overlay').show();
 
 	    	var ri = $(this).attr('id');
 
@@ -227,6 +229,8 @@
 	    });
 
 	    $("#close-right").click(function(e) {
+
+	    	$('.overlay').hide();
 	        $('#page-content-wrapper').css({
 				transform: 'translateX(0px)'
 			});
